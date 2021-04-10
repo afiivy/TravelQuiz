@@ -1,0 +1,32 @@
+<resources>
+    <string name="app_name">Travel Quiz</string>
+    <string name="_1_floaty_water">1.So salty you can float in it</string>
+    <string name="name">name</string>
+    <string name="red_sea">Red Sea</string>
+    <string name="dead_sea">Dead Sea</string>
+    <string name="black_sea">Black Sea</string>
+    <string name="_2_jordan">2.Where is Wadi Rum, Petra, the Dead Sea and Aqaba?</string>
+    <string name="answers">answers</string>
+    <string name="answer">answer</string>
+    <string name="_3_places_in_ghana">3.Places to see in Ghana (Select all that apply)</string>
+    <string name="_mountains">Afadjoto and Aburi Mountains</string>
+    <string name="_park">Kakum and Mole National Park</string>
+    <string name="_castle">Elmina and Cape Coast Castle</string>
+    <string name="_4_largest_mirror">4.One of the world\'s largest mirror?</string>
+    <string name="_5_african_writers">5.African writers (Select all that apply)</string>
+    <string name="chinua">Chinua Achebe, Things Fall Apart</string>
+    <string name="ngugi">Ngugi wa Thiong\'o, Weep Not, Child</string>
+    <string name="dr_kwame">Dr.Kwame Nkrumah, Neo-Colonialism</string>
+    <string name="chimamanda">Chimamanda N Adichie, Americanah</string>
+    <string name="_6_what_code_language">6.What code language created this quiz</string>
+    <string name="python">Python</string>
+    <string name="kotlin">Kotlin</string>
+    <string name="java">Java</string>
+    <string name="_7_black_women">7.Black Women Noble Laureates</string>
+    <string name="_8_artwork">8.Who created the artwork above?</string>
+    <string name="bansky">Bansky</string>
+    <string name="tavar_zawacki">Tavar Zawacki</string>
+    <string name="spy">SpY</string>
+    <string name="submit_answers">Submit Answers</string>
+    <string name="reset">Reset</string>
+</resources>

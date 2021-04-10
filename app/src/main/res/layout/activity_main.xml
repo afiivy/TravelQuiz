@@ -1,0 +1,332 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        >
+
+        <EditText
+            android:autofillHints="@string/name"
+            android:id="@+id/name_field"
+            android:padding="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:textSize="18sp"
+            android:hint="@string/name"
+            android:background="#EFEAFA"
+            android:inputType="text"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#EFEAFA"
+            android:textSize="20sp"
+            android:text="@string/_1_floaty_water" />
+
+        <RadioGroup
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#EFEAFA"
+            android:padding="10dp"
+            android:layout_marginBottom="10dp">
+
+            <RadioButton
+                android:id="@+id/red"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textSize="18sp"
+                android:text="@string/red_sea" />
+
+            <RadioButton
+                android:id="@+id/dead"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textSize="18sp"
+                android:text="@string/dead_sea" />
+
+            <RadioButton
+                android:id="@+id/black"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textSize="18sp"
+                android:text="@string/black_sea" />
+        </RadioGroup>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#EFEAFA"
+            android:padding="10dp"
+            android:text="@string/_2_jordan"
+            android:textSize="20sp" />
+
+        <EditText
+            android:autofillHints="@string/_2_jordan"
+            android:id="@+id/jordan"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#EFEAFA"
+            android:padding="10dp"
+            android:layout_marginBottom="10dp"
+            android:textSize="18sp"
+            android:hint="@string/answers"
+            android:inputType="text"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#EFEAFA"
+            android:padding="10dp"
+            android:textSize="20sp"
+            android:text="@string/_3_places_in_ghana"/>
+
+        <CheckBox
+            android:id="@+id/mountains"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="10dp"
+            android:background="#EFEAFA"
+            android:textSize="18sp"
+            android:text="@string/_mountains"/>
+
+        <CheckBox
+            android:id="@+id/parks"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="10dp"
+            android:background="#EFEAFA"
+            android:textSize="18sp"
+            android:text="@string/_park"/>
+
+        <CheckBox
+            android:id="@+id/castles"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="10dp"
+            android:background="#EFEAFA"
+            android:textSize="18sp"
+            android:text="@string/_castle"/>
+
+        <ImageView
+            android:contentDescription="@string/_4_largest_mirror"
+            android:layout_width="match_parent"
+            android:layout_height="300dp"
+            android:padding="10dp"
+            android:src="@drawable/salardeuyuni"
+            android:scaleType="centerCrop"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#EFEAFA"
+            android:padding="10dp"
+            android:textSize="20sp"
+            android:text="@string/_4_largest_mirror" />
+
+        <EditText
+            android:autofillHints="@string/_4_largest_mirror"
+            android:id="@+id/salar"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="10dp"
+            android:background="#EFEAFA"
+            android:textSize="18sp"
+            android:layout_marginBottom="10dp"
+            android:hint="@string/answer"
+            android:inputType="text"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#EFEAFA"
+            android:padding="10dp"
+            android:textSize="20sp"
+            android:text="@string/_5_african_writers"/>
+
+        <CheckBox
+            android:id="@+id/chinua"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="10dp"
+            android:background="#EFEAFA"
+            android:textSize="18sp"
+            android:text="@string/chinua"/>
+
+        <CheckBox
+            android:id="@+id/ngugi"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="10dp"
+            android:background="#EFEAFA"
+            android:textSize="18sp"
+            android:text="@string/ngugi"/>
+
+        <CheckBox
+            android:id="@+id/kwame"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="10dp"
+            android:background="#EFEAFA"
+            android:textSize="18sp"
+            android:text="@string/dr_kwame"/>
+
+        <CheckBox
+            android:id="@+id/chimamanda"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="10dp"
+            android:background="#EFEAFA"
+            android:textSize="18sp"
+            android:layout_marginBottom="10dp"
+            android:text="@string/chimamanda"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#EFEAFA"
+            android:padding="10dp"
+            android:textSize="20sp"
+            android:text="@string/_6_what_code_language"/>
+
+        <RadioGroup
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="10dp"
+            android:background="#EFEAFA">
+
+            <RadioButton
+                android:id="@+id/python"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textSize="18sp"
+                android:text="@string/python"/>
+
+            <RadioButton
+                android:id="@+id/kotlin"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textSize="18sp"
+                android:text="@string/kotlin"/>
+
+            <RadioButton
+                android:id="@+id/java"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textSize="18sp"
+                android:text="@string/java"/>
+        </RadioGroup>
+
+        <ImageView
+            android:contentDescription="@string/_7_black_women"
+            android:layout_width="match_parent"
+            android:layout_height="300dp"
+            android:padding="10dp"
+            android:src="@drawable/nobel"
+            android:scaleType="centerCrop"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#EFEAFA"
+            android:padding="10dp"
+            android:textSize="20sp"
+            android:text="@string/_7_black_women"/>
+
+        <EditText
+            android:autofillHints="@string/_7_black_women"
+            android:id="@+id/nobel"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#EFEAFA"
+            android:padding="10dp"
+            android:textSize="18sp"
+            android:hint="@string/answers"
+            android:inputType="text"/>
+
+        <ImageView
+            android:contentDescription="@string/_8_artwork"
+            android:id="@+id/imageView"
+            android:layout_width="match_parent"
+            android:layout_height="300dp"
+            android:scaleType="centerCrop"
+            android:padding="10dp"
+            android:src="@drawable/tavarzawacki"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#EFEAFA"
+            android:padding="10dp"
+            android:textSize="20sp"
+            android:text="@string/_8_artwork"/>
+
+        <RadioGroup
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="10dp"
+            android:padding="10dp"
+            android:background="#EFEAFA">
+
+            <RadioButton
+                android:id="@+id/bansky"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textSize="18sp"
+                android:text="@string/bansky"/>
+
+            <RadioButton
+                android:id="@+id/tavar"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textSize="18sp"
+                android:text="@string/tavar_zawacki"/>
+
+            <RadioButton
+                android:id="@+id/spy"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textSize="18sp"
+                android:text="@string/spy"/>
+        </RadioGroup>
+
+        <Button
+            android:id="@+id/submitAnswers"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="@string/submit_answers"
+            android:layout_marginRight="130dp"
+            android:layout_marginLeft="130dp"
+            android:layout_marginBottom="10dp"
+            android:background="#E1DBEF"
+            android:onClick="submit"
+            android:padding="10dp"
+            tools:ignore="OnClick"/>
+
+        <Button
+            android:id="@+id/reset"
+            android:layout_width="match_parent"
+            android:layout_marginRight="130dp"
+            android:layout_marginLeft="130dp"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="10dp"
+            android:padding="10dp"
+            android:text="@string/reset"
+            android:onClick="reset"
+            android:background="#E0D9F1"
+            tools:ignore="OnClick"/>
+
+    </LinearLayout>
+
+
+
+
+
+</ScrollView>
